@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-2_@=5567l5r6%t+otnm9^b^%=^+gg1i5jqlp4(nog9%&4=1*)0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    "crypto-tracker-api-uuf2.onrender.com",
+]
 
 # Application definition
 
